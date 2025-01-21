@@ -1,0 +1,45 @@
+header  {
+    background-image: url(/img_cheval/planches.jpg);
+}
+
+.titre {
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    width: 4.5rem;
+    color: red;
+}
+
+.head-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-menu a {
+    color: red;
+}
+.midle1{
+    display: flex;
+}
+.img2 img{
+    margin-top: 1.25rem;
+    border-radius: 30px;
+    box-shadow: 5px 2px 15px;
+}
+.midle2{
+    display: flex;
+}
+.img3 img{
+    margin-top: 1.25rem;
+    border-radius: 30px;
+}
+.midle3{
+    display: flex;
+    justify-content: center;
+}
+.img4 img{
+    margin-top: 1.25rem;
+    border-radius: 30px;
+}
