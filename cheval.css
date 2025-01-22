@@ -1,45 +1,93 @@
-header  {
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+* {
+    text-align: center;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Caveat Brush', cursive;
+}
+
+.trait {
+    width: 140px;
+    height: 8px;
+    background-color: red;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+}
+
+header {
     background-image: url(/img_cheval/planches.jpg);
+    height: 600px;
 }
 
-.titre {
+.nav_bar {
     display: flex;
-    justify-content: center;
-}
-
-hr {
-    width: 4.5rem;
-    color: red;
-}
-
-.head-menu {
-    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    list-style-type: none;
 }
 
-.head-menu a {
+.nav_bar a {
     color: red;
+    font-size: 30px;
 }
-.midle1{
+footer{
+    font-size: 20px;
+background:url(/;
+}
+
+.container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
-.img2 img{
-    margin-top: 1.25rem;
-    border-radius: 30px;
-    box-shadow: 5px 2px 15px;
+
+.col-s {
+    width: 33%;
 }
-.midle2{
-    display: flex;
+
+.col-m {
+    width: 48%;
 }
-.img3 img{
-    margin-top: 1.25rem;
-    border-radius: 30px;
+
+.col-l {
+    width: 98%;
 }
-.midle3{
-    display: flex;
-    justify-content: center;
+
+.text_rose {
+    color: red;
+    padding-bottom: 40px;
+    font-size: 20px;
 }
-.img4 img{
-    margin-top: 1.25rem;
-    border-radius: 30px;
+
+
+
+.border {
+    border: solid 1px red;
+}
+
+@media(0px <=width <=430px) {
+
+    .col-m,
+    .col-s {
+        width: 98%;
+    }
+
+    main img {
+        width: 80%;
+        margin: 5%;
+    }
+
+    .licorne img {
+        width: 100%;
+    }
+
+    ul {
+        padding-left: 0%;
+    }
 }
